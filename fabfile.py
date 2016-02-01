@@ -39,7 +39,7 @@ def build():
 
 def rebuild():
     """`clean` then `build`"""
-    clean()
+    """clean()"""
     build()
 
 def regenerate():

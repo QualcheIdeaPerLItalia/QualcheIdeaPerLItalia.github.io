@@ -53,6 +53,7 @@ SEARCH_BOX = True
 MENUITEMS = ( ( 'Blog', '/'), )
 
 OUTPUT_PATH = '../output/'
-OUTPUT_RETENTION = [ '.git/*' ]
+OUTPUT_RETENTION = [ '.git' ]
+DELETE_OUTPUT_DIRECTORY = False
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
