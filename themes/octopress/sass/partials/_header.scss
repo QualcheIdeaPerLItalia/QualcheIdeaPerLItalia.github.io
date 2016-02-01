@@ -1,0 +1,22 @@
+body > header {
+  background-image: $header-img;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  text-align: center;
+  h1 {
+    display: inline-block;
+    margin: 0;
+    text-shadow: -1px 0 #213438, 0 1px #213438, 1px 0 #213438, 0 -1px #213438;
+    a, a:visited, a:hover {
+      color: $title_color;
+      text-decoration: none;
+    }
+  }
+  h2 {
+    margin: .2em 0 0;
+    @extend .sans;
+    font-size: 1em;
+    color: $subtitle-color;
+    font-weight: normal;
+  }
+}

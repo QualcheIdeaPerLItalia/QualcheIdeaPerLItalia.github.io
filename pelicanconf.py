@@ -47,7 +47,7 @@ DEFAULT_PAGINATION = 10
 
 DISQUS_SITENAME = 'qualcheideaperlitalia'
 
-THEME = "../themes/octopress/"
+THEME = "themes/octopress/"
 FAVICON_FILENAME = "favicon.png"
 SEARCH_BOX = True
 MENUITEMS = ( ( 'Blog', '/'), )
